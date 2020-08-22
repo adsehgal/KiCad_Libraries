@@ -1,0 +1,135 @@
+(kicad_symbol_lib (version 20200126) (host kicad_symbol_editor "(5.99.0-2671-gfc0a358ba)")
+  (symbol "Custom_Transistors:NTZD3152P"
+    (property "Reference" "Q" (id 0) (at 3.175 0.635 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "NTZD3152P" (id 1) (at 6.35 3.175 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-563" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1905211505_ON-Semicon-ON-NTZD3152PT1G_C393372.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "NTZD3152P_0_1"
+      (circle (center -0.889 0) (radius 2.794) (stroke (width 0.254)) (fill (type none)))
+      (circle (center 0 -1.778) (radius 0.254) (stroke (width 0)) (fill (type outline)))
+      (circle (center 0 1.778) (radius 0.254) (stroke (width 0)) (fill (type outline)))
+      (polyline
+        (pts
+          (xy -2.286 0)
+          (xy -5.08 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 1.905)
+          (xy -2.286 -1.905)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.778 -1.27)
+          (xy -1.778 -2.286)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.778 0.508)
+          (xy -1.778 -0.508)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.778 2.286)
+          (xy -1.778 1.27)
+        )
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0 1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 0 0)
+          (xy -1.778 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.778 1.778)
+          (xy 0.762 1.778)
+          (xy 0.762 -1.778)
+          (xy -1.778 -1.778)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 0)
+          (xy -1.27 0.381)
+          (xy -1.27 -0.381)
+          (xy -0.254 0)
+        )
+        (stroke (width 0)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 0.254 -0.508)
+          (xy 0.381 -0.381)
+          (xy 1.143 -0.381)
+          (xy 1.27 -0.254)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 -0.381)
+          (xy 0.381 0.254)
+          (xy 1.143 0.254)
+          (xy 0.762 -0.381)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "NTZD3152P_1_1"
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -7.62 0 0) (length 2.54)
+        (name "G" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "NTZD3152P_2_1"
+      (pin passive line (at -7.62 0 0) (length 2.54)
+        (name "G" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
