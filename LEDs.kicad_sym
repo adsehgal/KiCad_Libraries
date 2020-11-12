@@ -1,0 +1,123 @@
+(kicad_symbol_lib (version 20200126) (host kicad_symbol_editor "(5.99.0-1662-g9db296991)")
+  (symbol "LEDs:LED_RGB_0603_R6GHBHC-C01-2T" (pin_names (offset 0))
+    (property "Reference" "U" (id 0) (at -6.985 -15.24 0))
+    (property "Value" "LED_RGB_0603_R6GHBHC-C01-2T" (id 1) (at 0 -11.43 0))
+    (property "Footprint" "Custom_Parts:LED_DUAL_0603" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "LED_RGB_0603_R6GHBHC-C01-2T_0_1"
+      (polyline
+        (pts (xy -6.985 1.905) (xy -8.255 3.81) (xy -6.35 3.81) (xy -5.715 3.81)
+             (xy -6.985 1.905)
+        )
+        (stroke (width 0.152)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -8.255 1.905) (xy -5.715 1.905))
+      )
+      (polyline
+        (pts (xy -6.985 0) (xy -6.985 1.905))
+      )
+      (polyline
+        (pts (xy -1.905 0) (xy -1.905 1.905))
+      )
+      (polyline
+        (pts (xy 3.175 0) (xy 3.175 1.905))
+      )
+      (polyline
+        (pts (xy -12.065 0) (xy -12.065 6.985) (xy 3.175 6.985) (xy 3.175 3.81))
+      )
+      (polyline
+        (pts (xy -1.905 3.81) (xy -1.905 6.985))
+      )
+      (polyline
+        (pts (xy -6.985 3.81) (xy -6.985 6.985))
+      )
+      (polyline
+        (pts (xy -8.382 3.302) (xy -9.398 2.413))
+      )
+      (polyline
+        (pts (xy -7.874 2.667) (xy -8.763 1.778))
+      )
+      (polyline
+        (pts (xy -9.398 2.413) (xy -9.398 2.794))
+        (stroke (width 0.152))
+      )
+      (polyline
+        (pts (xy -9.398 2.413) (xy -9.017 2.413))
+        (stroke (width 0.152))
+      )
+      (polyline
+        (pts (xy -8.763 1.778) (xy -8.763 2.159))
+        (stroke (width 0.152))
+      )
+      (polyline
+        (pts (xy -8.382 1.778) (xy -8.763 1.778))
+        (stroke (width 0.152))
+      )
+      (polyline
+        (pts (xy -4.318 2.54) (xy -4.318 2.921))
+      )
+      (polyline
+        (pts (xy -4.318 2.54) (xy -3.937 2.54))
+      )
+      (polyline
+        (pts (xy -3.683 1.905) (xy -3.683 2.286))
+      )
+      (polyline
+        (pts (xy -3.302 1.905) (xy -3.683 1.905))
+      )
+      (polyline
+        (pts (xy -3.302 3.429) (xy -4.318 2.54))
+      )
+      (polyline
+        (pts (xy -3.175 2.032) (xy -0.635 2.032))
+      )
+      (polyline
+        (pts (xy -2.794 2.794) (xy -3.683 1.905))
+      )
+      (polyline
+        (pts (xy -1.905 2.032) (xy -3.175 3.937) (xy -1.27 3.937) (xy -0.635 3.937)
+             (xy -1.905 2.032)
+        )
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.762 2.413) (xy 0.762 2.794))
+      )
+      (polyline
+        (pts (xy 0.762 2.413) (xy 1.143 2.413))
+      )
+      (polyline
+        (pts (xy 1.397 1.778) (xy 1.397 2.159))
+      )
+      (polyline
+        (pts (xy 1.778 1.778) (xy 1.397 1.778))
+      )
+      (polyline
+        (pts (xy 1.778 3.302) (xy 0.762 2.413))
+      )
+      (polyline
+        (pts (xy 1.905 1.905) (xy 4.445 1.905))
+      )
+      (polyline
+        (pts (xy 2.286 2.667) (xy 1.397 1.778))
+      )
+      (polyline
+        (pts (xy 3.175 1.905) (xy 1.905 3.81) (xy 3.81 3.81) (xy 4.445 3.81)
+             (xy 3.175 1.905)
+        )
+        (fill (type outline))
+      )
+    )
+    (symbol "LED_RGB_0603_R6GHBHC-C01-2T_1_1"
+      (pin input line (at -12.065 -2.54 90) (length 2.54) (name "Vcc") (number "1"))
+      (pin input line (at -6.985 -2.54 90) (length 2.54) (name "Blue") (number "2"))
+      (pin input line (at -1.905 -2.54 90) (length 2.54) (name "Green") (number "3"))
+      (pin input line (at 3.175 -2.54 90) (length 2.54) (name "Red") (number "4"))
+    )
+  )
+)
