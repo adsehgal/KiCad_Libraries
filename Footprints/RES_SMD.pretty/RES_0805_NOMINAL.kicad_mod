@@ -1,6 +1,6 @@
 (footprint "RES_0805_NOMINAL" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62282A84)
+  (tedit 622D88A0)
   (descr "0805 Resistor Nominal Board Space")
   (attr smd)
   (fp_text reference "REF**" (at 0 -1.25 unlocked) (layer "F.SilkS")
@@ -28,7 +28,7 @@
   (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.05) (tstamp 8804ac3b-c636-4dd9-97bf-f0c4cc720a24))
   (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c7ea0ab0-3d2d-4f22-9f3f-d72a32830583))
   (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 83453e05-b539-45a3-8b31-e4019df6a03b))
-  (model "/Users/adityasehgal/Documents/GitHub/KiCad_Libraries/StepModels/RESISTORS/RES_0805.STEP"
+  (model "${KICAD6_3DMODEL_DIR}/RESISTOR_SMD/RES_0805.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

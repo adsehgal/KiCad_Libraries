@@ -1,6 +1,6 @@
 (footprint "RES_1206_LEAST" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62282A87)
+  (tedit 622D88A9)
   (descr "1206 Resistor Least Board Space")
   (attr smd)
   (fp_text reference "REF**" (at 0 -1.4 unlocked) (layer "F.SilkS")
@@ -28,7 +28,7 @@
   (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.05) (tstamp 8804ac3b-c636-4dd9-97bf-f0c4cc720a24))
   (pad "1" smd roundrect (at -1.35 0) (size 0.95 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c7ea0ab0-3d2d-4f22-9f3f-d72a32830583))
   (pad "2" smd roundrect (at 1.35 0) (size 0.95 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 83453e05-b539-45a3-8b31-e4019df6a03b))
-  (model "/Users/adityasehgal/Documents/GitHub/KiCad_Libraries/StepModels/RESISTORS/RES_1206.STEP"
+  (model "${KICAD6_3DMODEL_DIR}/RESISTOR_SMD/RES_1206.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

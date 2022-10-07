@@ -1,6 +1,6 @@
 (footprint "SOT23_6" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62282A5F)
+  (tedit 622D8816)
   (attr smd)
   (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS")
     (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -47,7 +47,7 @@
   (pad "4" smd roundrect (at 1.35 0.95) (size 1.1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 55427b42-e4fb-427b-b4df-8a245946a1f0))
   (pad "5" smd roundrect (at 1.35 0) (size 1.1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9b5541bd-6969-44aa-94d7-fe8e9a0dfa35))
   (pad "6" smd roundrect (at 1.35 -0.95) (size 1.1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 104e9060-b732-4a0b-82a3-4cd89cb59df0))
-  (model "/Users/adityasehgal/Documents/GitHub/KiCad_Libraries/StepModels/PACKAGE_SO/SOT23_6.STEP"
+  (model "${KICAD6_3DMODEL_DIR}/PACKAGE_SO/SOT23_6.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

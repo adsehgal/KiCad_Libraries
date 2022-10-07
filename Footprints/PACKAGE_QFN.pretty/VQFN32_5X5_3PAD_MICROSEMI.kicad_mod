@@ -1,6 +1,6 @@
 (footprint "VQFN32_5X5_3PAD_MICROSEMI" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62282A32)
+  (tedit 622D87BE)
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.25 unlocked) (layer "F.SilkS")
     (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -67,7 +67,7 @@
   (pad "P1" smd roundrect (at 0.8625 -1.1) (size 1.225 1.525) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09836065574) (tstamp 5f9bb383-9699-483f-abd6-f7fae3eff4db))
   (pad "P2" smd roundrect (at -0.8625 -1.1) (size 1.225 1.525) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 50ced947-51d4-4275-bf07-b257b6ec823b))
   (pad "P3" smd roundrect (at 0 1.0125) (size 3.45 1.525) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09836065574) (tstamp efa0b5dd-fae2-4f37-86f2-2228dd6f0e00))
-  (model "/Users/adityasehgal/Documents/GitHub/KiCad_Libraries/StepModels/PACKAGE_QFN/VQFN32_5X5.STEP"
+  (model "${KICAD6_3DMODEL_DIR}/PACKAGE_QFN/VQFN32_5X5.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

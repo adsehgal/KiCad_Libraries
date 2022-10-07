@@ -1,6 +1,6 @@
 (footprint "WSON8_6X5" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6229C4F6)
+  (tedit 622D8823)
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.1 unlocked) (layer "F.SilkS")
     (effects (font (size 0.75 0.75) (thickness 0.1)))

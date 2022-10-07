@@ -1,6 +1,6 @@
 (footprint "DFN12_4X4_EP" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62282A04)
+  (tedit 622D8777)
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.45 unlocked) (layer "F.SilkS")
     (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -49,7 +49,7 @@
   (pad "11" smd rect (at 1.9 -0.75 270) (size 0.3 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2a44eaf-666f-422c-bb4d-a717499c3d1a))
   (pad "12" smd rect (at 1.9 -1.25 270) (size 0.3 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cc5561df-9d20-4574-af60-64f10025a0ed))
   (pad "13" smd rect (at 0 0 270) (size 3.38 2.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 628f0a9f-12ce-4a6a-8ea2-8c2cdfc4161e))
-  (model "/Users/adityasehgal/Documents/GitHub/KiCad_Libraries/StepModels/PACKAGE_DFN/DFN12_4X4_EP.STEP"
+  (model "${KICAD6_3DMODEL_DIR}/PACKAGE_DFN/DFN12_4X4.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

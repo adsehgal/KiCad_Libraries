@@ -1,6 +1,6 @@
 (footprint "MLP44_24L" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62282A0B)
+  (tedit 6285D96A)
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.8 unlocked) (layer "F.SilkS")
     (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -65,7 +65,7 @@
   (pad "27" smd rect (at -0.662 0.675) (size 2.175 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 61796d33-40b8-49c3-b57e-9b3529a068cb))
   (pad "27" smd rect (at 0.75 0.3025) (size 0.65 0.455) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9bc85d73-d8c9-4e83-97b4-4760c98b953a))
   (pad "28" smd rect (at 0.9855 0.9955) (size 0.58 0.38) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ce581da9-ac1a-4c11-bedb-fb991b651d4d))
-  (model "/Users/adityasehgal/Documents/GitHub/KiCad_Libraries/StepModels/PACKAGE_MLP/MLP44_24L.STEP"
+  (model "${KICAD6_3DMODEL_DIR}/PACKAGE_MLP/MLP44_24L.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

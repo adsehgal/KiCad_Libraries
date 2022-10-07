@@ -1,6 +1,6 @@
 (footprint "LQFP64_10X10" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62282A49)
+  (tedit 622D87D3)
   (attr smd)
   (fp_text reference "REF**" (at 0 -6.85 unlocked) (layer "F.SilkS")
     (effects (font (size 0.75 0.75) (thickness 0.1)))
@@ -104,7 +104,7 @@
   (pad "62" smd roundrect (at -2.75 -5.75 270) (size 1.2 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bacbe3d3-6f50-4a71-b037-4286caca8a01))
   (pad "63" smd roundrect (at -3.25 -5.75 270) (size 1.2 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7030eb79-dc96-459b-8c83-5cdc3077b868))
   (pad "64" smd roundrect (at -3.75 -5.75 270) (size 1.2 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 96146dfa-bf7c-437d-9aba-b0962b1d455d))
-  (model "/Users/adityasehgal/Documents/GitHub/KiCad_Libraries/StepModels/PACKAGE_QFP/LQFP64_10X10.STEP"
+  (model "${KICAD6_3DMODEL_DIR}/PACKAGE_QFP/LQFP64_10X10.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
